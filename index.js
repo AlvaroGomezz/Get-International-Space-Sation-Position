@@ -7,7 +7,7 @@ const getSpaceStationCoordenates = () => {
         let {latitude, longitude} = data
         map = L.map('map').setView([latitude, longitude], 5);
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          maxZoom: 8,
+          maxZoom: 10,
           attribution: '© OpenStreetMap'
         }).addTo(map);
         redIcon = L.icon({

@@ -7,6 +7,6 @@ body {
 #map {
     height: 100%;
 }
-.gmnoprint, .gm-fullscreen-control{
+.leaflet-right{
     display: none;
 }  
